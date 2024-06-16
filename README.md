@@ -18,14 +18,12 @@ This repository contains a project on optimizing revenue management strategies t
 
 # Methodology
 ### 1. Human Intuition Matrix Method
-- Utilizes managers' tacit knowledge and historical data.
-- Creates a dynamic decision matrix to visualize sales outcomes under different pricing scenarios.
+- Utilizes managers' intuition to decide prices for each week.
 - Adaptable but may suffer from subjectivity, leading to inconsistent pricing unless carefully controlled.
 
 ### 2. Linear Optimization (Linear Demand Variation)
 - Overview:
 This method uses a linear programming model to determine the best pricing strategy over a 15-week period, based on the assumption that there is a straightforward relationship between price and market demand.
-
 - Assumption:
 The model assumes that consumer demand changes in a predictable, linear way when prices are adjusted. This makes it easier to create a systematic pricing strategy.
 - Regression Analysis:
